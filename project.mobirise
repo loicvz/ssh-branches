@@ -1,0 +1,221 @@
+{
+  "settings": {
+    "name": "My Site",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#e9e9e9",
+        "secondaryColor": "#b9b8b8",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Bitter",
+        "subtitleFont": "Bitter",
+        "textFont": "Bitter",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": []
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 37,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px",
+              "color": "#28324e",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "text-align": "center"
+            },
+            ".mbr-section-lead": {
+              "text-align": "center",
+              "color": "#28324e",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i"
+            }
+          },
+          "_anchor": "header1-d",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<span style=\"font-weight: normal;\">De</span> <span style=\"font-weight: normal;\">Geschilderde</span> <span style=\"font-weight: normal;\">Gemeenplaats</span>",
+          "text": "<br><br>Loïc Van Zeebroek<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"index.html#gallery3-s\" data-toolbar=\"-mbrBtnMove\">werk</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"index.html#slider3-x\" data-toolbar=\"-mbrBtnMove\">tekst</a>  "
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/atelierbeeld1-1-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/atelierbeeld1-1-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01197-1-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01197-1-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01212-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01212-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01200-1-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01200-1-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": 1,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#efefef",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-s",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-10",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#efefef",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/20180109-170418000-hires-1400x2100.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-w",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/20180109_170418000_hires-2000x3000.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "<span style=\"font-size: 1.5rem; line-height: 1.5;\">Dauwens &amp; Beernaert is vereerd de eerste solotentoonstelling van Loïc Van Zeebroek&nbsp;“De Geschilderde Gemeenplaats” te mogen brengen.&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">Net zoals de schilderijen van Loïc Van Zeebroek is de titel van de tentoonstelling&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">gelaagd. Een gemeenplaats is een veelvuldig gebruikt gezegde waarvan men de&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">oorspronkelijke kracht niet meer voelt, een afgezaagd cliché, een ingetrapte open&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">deur. Kortom: een ruimte waarin alles al gezegd is. Misschien verwijst Loïc hiermee&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">naar het medium waarmee hij aan de slag gaat: schilderkunst. Een historisch&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">geladen medium waarin (wellicht) alles al gezegd en gedaan is, waardoor elke hedendaagse&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">toevoeging of interpretatie bij voorbaat gedoemd is om hoogstens als&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">een anekdote, in de gemeenplaats van de kunstgeschiedenis te eindigen. Tenzij (en&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">dat zijn niet de woorden van de artiest maar onze beleving van zijn werk), de marge&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">van het Grote Verhaal van de Schilderkunst de focus of het onderwerp wordt.&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">De werken van Loïc opereren in de marge, een betekenisvolle ruimte te vinden&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">naast (het kader) of in (het cliché) het schilderij.&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">In sommige schilderijen is letterlijk een verschuiving van de focus naar de marge te&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">vinden. In een marine opereert de geschilderde marge (een geschilderd houten&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">kader dat een quasi leeg zeezicht dat balanceert tussen abstractie en figuratie omkadert)&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">als een trompe-l’oeil, dat te minutieus geschilderd is om een (op zichzelf&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">overbodige) representatie van de ondergrond te zijn. In de plaats van de rand van&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">het houten drager kader blanco te laten, brengt Loïc een representatie (een geschilderde&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">evocatie van een houten kader) van het gerepresenteerde (de houten&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">ondergrond) aan. Het oneindig herhaalde cliché (het zeezicht), de gemeenplaats,&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">verdwijnt hierdoor schilderkundig op de achtergrond, maar wordt door de clichématige&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">en academische focus op de marge/het kader centraal geplaatst. Door&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">de ballast van de kunstgeschiedenis te verplaatsen naar de rand, wordt de gemeenplaats&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">naar de marge verdreven, waardoor centraal een ruimte van reflectie&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">en contemplatie ontstaat, de oorsprong van het cliché, een deur die nog niet is&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">open getrapt.&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">In andere werken verschuift de focus van de “message” (doorgaans de gemeenplaats)&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">naar het “medium\"</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">. Twee schilderijen werden aangebracht op afgeschreven&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">schilderspaletten. Door de aangekoekte restanten verf die gediend hebben om andere&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">schilderijen te maken als ondergrond te gebruiken krijgen deze werken een topografische&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">dimensie en sublimeren ze enerzijds praxis en resultaat tot een poëtische&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">choreografie. Deze topografische dimensie, en het opheffen van het tweedimensionaal&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">karakter van schilderkunst is ook terug te vinden in “Heuvel” en “Euvel”. &nbsp; </span><span style=\"font-size: 1.5rem; line-height: 1.5;\">Twee werken die accidenteel zijn ontstaan.&nbsp;</span><br><span style=\"font-size: 1.5rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1.5rem; line-height: 1.5;\">De schilderijen van Loïc Van Zeebroek worden gekenmerkt door overgave. De</span><br><div style=\"text-align: start;\"><span style=\"font-size: 1.5rem; line-height: 1.5;\">notie overgave heeft en dubbele en zelfs contradictorische betekenis die Loïc lijkt&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">uit te spelen in zijn werken. Overgave betekent enerzijds capitulatie (de witte vlaggen&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">en het brandend schilderij lijken een capitulatie t.o.v. de schilderkunst te suggereren,&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">en zijn overigens overschilderde werken) maar anderzijds ook toewijding.&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">In heel wat werken lijkt Loïc de idylle en het métier voor het gerepresenteerde te&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">plaatsen. Schilderijen die op die manier het oordeel van de geschiedenis overleven&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">eindigen daarentegen vaak als puzzel in een museumshop, klaar voor gebruik in&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">de gemeen- en speelplaats.</span></div><br>Het werk van Loïc Van Zeebroek schept een vacuüm, een ruimte zonder druk. Ineen zwaar beladen medium, schilderkunst, slaagt hij er in, via een strategische en&nbsp;<span style=\"font-size: 1.5rem; line-height: 1.5;\">zorgvuldige vorm van cherry-picking en het verleggen van accenten, ruimtes van&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">contemplatie te scheppen. Zijn werken vertrekken vanuit utilitair botanisch werk,&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">renaissance schilderkunst en klassieke, zelfs geromantiseerde landschapsschilderkunst.&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">Hij ontdoet die inspiratiebronnen van hun initiële teleologie en adjectieven&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">en schept op die manier een rustpunt.&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">Painting nature becomes the nature of painting.</span><br><span style=\"font-size: 1.5rem; line-height: 1.5;\"><br></span>Door Joris Beernaert, naar aanleiding van de solotentoonstelling \"de geschilderde gemeenplaats\"<br><span style=\"font-size: 1.5rem; line-height: 1.5;\"><br></span><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#28324e"
+            },
+            ".mbr-section-lead SPAN": {
+              "text-align": "center"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
